@@ -7,7 +7,7 @@ app = FastAPI()
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["https://wesley-john.github.io/Meskott-Restaurant/"],  
+    allow_origins=["https://wesley-john.github.io"] ,  
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
